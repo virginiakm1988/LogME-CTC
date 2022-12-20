@@ -9,5 +9,5 @@ Adapter with layer 1-5 feature  (7-9 features)
 - per classification error
 - week 2 ctc alignment
 - week 3 posterior ( know whats estimation)
-
+layerwise shape difference --> may need some normalization or reshape
 
