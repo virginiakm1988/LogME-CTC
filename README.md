@@ -19,6 +19,7 @@ layerwise shape difference --> may need some normalization or reshape
 
 
 ## Results
+1/11 Conduct experiments on different tuned layer on PR
 | Layer selection  | Ground truth score (PER) |  Ground truth ranking  |
 | ------------- |:-------------|:-----|
 |Layer 0| running | - |
