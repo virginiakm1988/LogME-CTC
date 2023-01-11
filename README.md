@@ -1,5 +1,10 @@
 #  LogME-CTC
 
+## Progress update
+1/12
+Stored 200 samples of the groundtruth, label, and the features extracted from tuned 1-5 layer of HuBERT base model.
+Since the output is sequential, will need some time to process the data as well as the label.
+
 ## Experiments todo
 Adapter with layer 1-5 feature  (7-9 features)
 (can choose a batch)
