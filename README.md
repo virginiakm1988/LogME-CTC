@@ -20,9 +20,9 @@ layerwise shape difference --> may need some normalization or reshape
 
 ## Results
 1/11 Conduct experiments on different tuned layer on PR
+#### Phoneme Recognition
 | Layer selection  | Ground truth score (PER) |  Ground truth ranking  |
 | ------------- |:-------------|:-----|
-#### Phoneme Recognition
 |Layer 0| running | - |
 |Layer 1 | 0.3041 | - |
 |Layer 2 | 0.2801 | - |
