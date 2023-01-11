@@ -1,9 +1,10 @@
 #  LogME-CTC
 
 ## Progress update
-1/12
-Stored 200 samples of the groundtruth, label, and the features extracted from tuned 1-5 layer of HuBERT base model.
-Since the output is sequential, will need some time to process the data as well as the label.
+- 1/12 update
+    1. Stored 200 samples of the groundtruth, label, and the features extracted from tuned 1-5 layer of HuBERT base model.
+    2. Since the output is sequential, will need some time to process the data as well as the label.
+    3. Other layers of tuned models are still training
 
 ## Experiments todo
 Adapter with layer 1-5 feature  (7-9 features)
@@ -26,8 +27,8 @@ layerwise shape difference --> may need some normalization or reshape
 ## Results
 1/11 Conduct experiments on different tuned layer on PR
 #### Phoneme Recognition
-| Layer selection  | Ground truth score (PER) |  Ground truth ranking  |
-| ------------- |:-------------|:-----|
+| Layer selection  | Ground truth score (PER) |  Ground truth ranking  | LogME ranking |
+| ---------------- |:-------------------------|:-----------------------|---------------|
 |Layer 0| running | - |
 |Layer 1 | 0.3041 | 4 |
 |Layer 2 | 0.2801 | 3 |
@@ -40,5 +41,3 @@ layerwise shape difference --> may need some normalization or reshape
 |Layer 9 | running | - |
 |Layer 10 | running | - |
 |Layer 11 | running | - |
-
-
