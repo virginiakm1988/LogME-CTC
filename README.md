@@ -24,10 +24,10 @@ layerwise shape difference --> may need some normalization or reshape
 | Layer selection  | Ground truth score (PER) |  Ground truth ranking  |
 | ------------- |:-------------|:-----|
 |Layer 0| running | - |
-|Layer 1 | 0.3041 | - |
-|Layer 2 | 0.2801 | - |
-|Layer 3 | 0.2600 | - |
-|Layer 4 | 0.2393 | - |
+|Layer 1 | 0.3041 | 4 |
+|Layer 2 | 0.2801 | 3 |
+|Layer 3 | 0.2600 | 2 |
+|Layer 4 | 0.2393 | 1 |
 |Layer 5 | running| - |
 |Layer 6 | running | - |
 |Layer 7 | running | - |
