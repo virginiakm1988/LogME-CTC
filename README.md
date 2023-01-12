@@ -36,7 +36,7 @@ layerwise shape difference --> may need some normalization or reshape
 |Layer 4 | 0.2393 | 1 |
 |Layer 5 | running| - |
 |Layer 6 | 0.1443 | - |
-|Layer 7 | running | - |
+|Layer 7 | 0.1082 | - |
 |Layer 8 | running | - |
 |Layer 9 | running | - |
 |Layer 10 | running | - |
