@@ -30,14 +30,14 @@ layerwise shape difference --> may need some normalization or reshape
 | Layer selection  | Ground truth score (PER) |  Ground truth ranking  | LogME score (300 frame from 1 sample) | LogME ranking|
 | ---------------- |:-------------------------|:-----------------------|---------------------------------------|--------------|
 |Layer 0| running | - |     |-|
-|Layer 1 | 0.3041 | 7 | 8.72| 7|
-|Layer 2 | 0.2801 | 6 | 8.92| 6|
-|Layer 3 | 0.2600 | 5 | 8.95| 5|
-|Layer 4 | 0.2393 | 4 | 9.00| 3|
-|Layer 5 | 0.1978 | 3 | 8.98| 4|
-|Layer 6 | 0.1443 | 2 | 9.01| 2|
-|Layer 7 | 0.1082 | 1 | 9.07| 1|
-|Layer 8 | running | - || |
+|Layer 1 | 0.3041 | 8 | 8.72| 8|
+|Layer 2 | 0.2801 | 7 | 8.92| 7|
+|Layer 3 | 0.2600 | 6 | 8.95| 6|
+|Layer 4 | 0.2393 | 5 | 9.00| 4|
+|Layer 5 | 0.1978 | 4 | 8.98| 5|
+|Layer 6 | 0.1443 | 3 | 9.01| 3|
+|Layer 7 | 0.1082 | 2 | 9.07| 2|
+|Layer 8 | 0.0842 | 1 | 9.11| 1|
 |Layer 9 | running | - |||
 |Layer 10 | running | - |||
 |Layer 11 | running | - |||
