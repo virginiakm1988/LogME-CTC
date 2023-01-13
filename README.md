@@ -27,17 +27,17 @@ layerwise shape difference --> may need some normalization or reshape
 ## Results
 1/11 Conduct experiments on different tuned layer on PR
 #### Phoneme Recognition
-| Layer selection  | Ground truth score (PER) |  Ground truth ranking  | LogME ranking |
-| ---------------- |:-------------------------|:-----------------------|---------------|
-|Layer 0| running | - |
-|Layer 1 | 0.3041 | 4 |
-|Layer 2 | 0.2801 | 3 |
-|Layer 3 | 0.2600 | 2 |
-|Layer 4 | 0.2393 | 1 |
-|Layer 5 | running| - |
-|Layer 6 | 0.1443 | - |
-|Layer 7 | 0.1082 | - |
-|Layer 8 | running | - |
-|Layer 9 | running | - |
-|Layer 10 | running | - |
-|Layer 11 | running | - |
+| Layer selection  | Ground truth score (PER) |  Ground truth ranking  | LogME score (300 frame from 1 sample) | LogME ranking|
+| ---------------- |:-------------------------|:-----------------------|---------------------------------------|--------------|
+|Layer 0| running | - |     |-|
+|Layer 1 | 0.3041 | 7 | 8.72| 7|
+|Layer 2 | 0.2801 | 6 | 8.92| 6|
+|Layer 3 | 0.2600 | 5 | 8.95| 5|
+|Layer 4 | 0.2393 | 4 | 9.00| 3|
+|Layer 5 | 0.1978 | 3 | 8.98| 4|
+|Layer 6 | 0.1443 | 2 | 9.01| 2|
+|Layer 7 | 0.1082 | 1 | 9.07| 1|
+|Layer 8 | running | - || |
+|Layer 9 | running | - |||
+|Layer 10 | running | - |||
+|Layer 11 | running | - |||
