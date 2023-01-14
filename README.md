@@ -41,3 +41,19 @@ layerwise shape difference --> may need some normalization or reshape
 |Layer 9 | running | - |||
 |Layer 10 | running | - |||
 |Layer 11 | running | - |||
+
+#### Keyword spotting
+| Layer selection  | Ground truth score (ACC) |  Ground truth ranking  | LogME score | LogME ranking|
+| ---------------- |:-------------------------|:-----------------------|---------------------------------------|--------------|
+|Layer 0 | 0.9594 | 10 |     |-|
+|Layer 1 | 0.9685 | 7  || 8|
+|Layer 2 | 0.9707 | 4* || 7|
+|Layer 3 | 0.9717 | 1  || 6|
+|Layer 4 | 0.9704 | 6  || 4|
+|Layer 5 |        |    || 5|
+|Layer 6 |        |    || 3|
+|Layer 7 | 0.9707 | 4* || 2|
+|Layer 8 | 0.9626 | 9  || 1|
+|Layer 9 | 0.9678 | 8  |||
+|Layer 10| 0.9711 | 2* |||
+|Layer 11| 0.9711 | 2* |||
