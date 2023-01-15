@@ -43,17 +43,18 @@ layerwise shape difference --> may need some normalization or reshape
 |Layer 11 | running | - |||
 
 #### Keyword spotting
+SpearmanrResult(correlation=0.0388702286384894, pvalue=0.9045352388039742)
 | Layer selection  | Ground truth score (ACC) |  Ground truth ranking  | LogME score | LogME ranking|
 | ---------------- |:-------------------------|:-----------------------|---------------------------------------|--------------|
-|Layer 0 | 0.9594 | 10 |     |-|
-|Layer 1 | 0.9685 | 7  || 8|
-|Layer 2 | 0.9707 | 4* || 7|
-|Layer 3 | 0.9717 | 1  || 6|
-|Layer 4 | 0.9704 | 6  || 4|
-|Layer 5 |        |    || 5|
-|Layer 6 |        |    || 3|
-|Layer 7 | 0.9707 | 4* || 2|
-|Layer 8 | 0.9626 | 9  || 1|
-|Layer 9 | 0.9678 | 8  |||
-|Layer 10| 0.9711 | 2* |||
-|Layer 11| 0.9711 | 2* |||
+|Layer 0           | 0.9594                   | 11                     |  860.6594    |12 |
+|Layer 1           | 0.9685                   | 8                      |  867.4900    | 1*|
+|Layer 2           | 0.9707                   | 7                      |  862.0167    | 9 |
+|Layer 3           | 0.9717                   | 2*                     |  861.6354    | 11|
+|Layer 4           | 0.9704                   | 6                      |  862.6105    | 7 |
+|Layer 5           | 0.9730                   | 1                      |  861.8401    | 10|
+|Layer 6           | 0.9717                   | 2*                     |  863.4720    | 4 |
+|Layer 7           | 0.9652                   | 4*                     |  863.0927    | 6 |
+|Layer 8           | 0.9626                   | 12                     |  862.6008    | 8 |
+|Layer 9           | 0.9678                   | 9                      |  863.0995    |5  |
+|Layer 10          | 0.9711                   | 4*                     |  867.4900    |1* |
+|Layer 11          | 0.9711                   | 4*                     |  864.715     |3  |
