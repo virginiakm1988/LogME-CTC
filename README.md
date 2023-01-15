@@ -4,6 +4,7 @@
 - 1/16 update
     -  KS results, 352 features. 
 todo: KS feature with more samples (1280) / PR results!!!  
+似乎是可以估計一下before/after weighted sum，以此verify the power of weighted sum in the superb model
 
 ## Experiments todo
 Adapter with layer 1-5 feature  (7-9 features)
