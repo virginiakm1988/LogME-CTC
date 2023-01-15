@@ -1,10 +1,9 @@
 #  LogME-CTC
 
 ## Progress update
-- 1/12 update ([Colab link](https://colab.research.google.com/drive/1_Zbb3CtJf8ndD_3niCpNu_ENF8l809lW?usp=sharing))
-    1. Stored 200 samples of the groundtruth, label, and the features extracted from tuned 1-5 layer of HuBERT base model.
-    2. Since the output is sequential, will need some time to process the data as well as the label.
-    3. Other layers of tuned models are still training
+- 1/16 update
+    -  KS results, 352 features. 
+todo: KS feature with more samples (1280) / PR results!!!  
 
 ## Experiments todo
 Adapter with layer 1-5 feature  (7-9 features)
