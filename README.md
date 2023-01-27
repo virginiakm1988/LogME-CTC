@@ -5,6 +5,8 @@
     -  KS results, 352 features. 
 todo: KS feature with more samples (1280) / PR results!!!  
 似乎是可以估計一下before/after weighted sum，以此verify the power of weighted sum in the superb model
+- 1/27 update
+-   PR蠻準的，framewise ctc with normalization correlation ~= 0.6-0.9
 
 ## Experiments todo
 Adapter with layer 1-5 feature  (7-9 features)
@@ -25,22 +27,23 @@ layerwise shape difference --> may need some normalization or reshape
 
 
 ## Results
-1/11 Conduct experiments on different tuned layer on PR
+1/27 Conduct experiments on different tuned layer on PR
 #### Phoneme Recognition
+Corr = 0.93!!!
 | Layer selection  | Ground truth score (PER) |  Ground truth ranking  | LogME score (300 frame from 1 sample) | LogME ranking|
 | ---------------- |:-------------------------|:-----------------------|---------------------------------------|--------------|
-|Layer 0|  0.3629 | 12|     |-|
-|Layer 1 | 0.3041 | 9 | | |
-|Layer 2 | 0.2801 | 8 | | |
-|Layer 3 | 0.2600 | 7 | | |
-|Layer 4 | 0.2393 | 6 || |
-|Layer 5 | 0.1978 | 5 || |
-|Layer 6 | 0.1443 | 4 || |
-|Layer 7 | 0.1082 | 3 || |
-|Layer 8 | 0.0842 | 2 || |
-|Layer 9 | 0.0700 | 1 |||
-|Layer 10 | 0.30562 | 10 |||
-|Layer 11 | 0.3108 | 11 |||
+|Layer 0|  0.3629 | 12|169863	 |12|
+|Layer 1 | 0.3041 | 9 |173751    |11 |
+|Layer 2 | 0.2801 | 8 |174306	 |8 |
+|Layer 3 | 0.2600 | 7 |178545	 |6 |
+|Layer 4 | 0.2393 | 6 |178249    |7 |
+|Layer 5 | 0.1978 | 5 |186598    |2 |
+|Layer 6 | 0.1443 | 4 |182484    |5 |
+|Layer 7 | 0.1082 | 3 |182709	 |4 |
+|Layer 8 | 0.0842 | 2 |182752	 |3 |
+|Layer 9 | 0.0700 | 1 |187122    |1|
+|Layer 10 | 0.30562| 10|174100 |9|
+|Layer 11 | 0.3108 | 11 |173877  |10|
 
 #### Keyword spotting
 SpearmanrResult(correlation=0.0388702286384894, pvalue=0.9045352388039742)
