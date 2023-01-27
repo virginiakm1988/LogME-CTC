@@ -29,21 +29,21 @@ layerwise shape difference --> may need some normalization or reshape
 ## Results
 1/27 Conduct experiments on different tuned layer on PR
 #### Phoneme Recognition
-Corr = 0.93!!!
-| Layer selection  | Ground truth score (PER) |  Ground truth ranking  | LogME score (300 frame from 1 sample) | LogME ranking|
+Corr = 0.9650!!!
+| Layer selection  | Ground truth score (PER) |  Ground truth ranking  | LogME score (15 sample average) | LogME ranking|
 | ---------------- |:-------------------------|:-----------------------|---------------------------------------|--------------|
-|Layer 0|  0.3629 | 12|169863	 |12|
-|Layer 1 | 0.3041 | 9 |173751    |11 |
-|Layer 2 | 0.2801 | 8 |174306	 |8 |
-|Layer 3 | 0.2600 | 7 |178545	 |6 |
-|Layer 4 | 0.2393 | 6 |178249    |7 |
-|Layer 5 | 0.1978 | 5 |186598    |2 |
-|Layer 6 | 0.1443 | 4 |182484    |5 |
-|Layer 7 | 0.1082 | 3 |182709	 |4 |
-|Layer 8 | 0.0842 | 2 |182752	 |3 |
-|Layer 9 | 0.0700 | 1 |187122    |1|
-|Layer 10 | 0.30562| 10|174100 |9|
-|Layer 11 | 0.3108 | 11 |173877  |10|
+|Layer 0|  0.3629 | 12|171064	 |11|
+|Layer 1 | 0.3041 | 9 |171425    |10 |
+|Layer 2 | 0.2801 | 8 |174496	 |8 |
+|Layer 3 | 0.2600 | 7 |175383	 |7 |
+|Layer 4 | 0.2393 | 6 |176914    |6 |
+|Layer 5 | 0.1978 | 5 |176952    |5 |
+|Layer 6 | 0.1443 | 4 |179810    |4 |
+|Layer 7 | 0.1082 | 3 |183304	 |3 |
+|Layer 8 | 0.0842 | 2 |185155	 |2 |
+|Layer 9 | 0.0700 | 1 |186503    |1|
+|Layer 10 | 0.30562| 10|169948|12|
+|Layer 11 | 0.3108 | 11 |172545 |9|
 
 #### Keyword spotting
 SpearmanrResult(correlation=0.0388702286384894, pvalue=0.9045352388039742)
