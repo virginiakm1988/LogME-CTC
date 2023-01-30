@@ -64,6 +64,8 @@ Corr = 0.9720!!!
 |Layer 11 | 0.3108 | 11 |483468.14       |9|
 
 #### Keyword spotting
+
+### different layers
 SpearmanrResult(correlation=0.0388702286384894, pvalue=0.9045352388039742)
 SpearmanrResult(correlation=-0.18021651459663265, pvalue=0.5751510589103314)
 | Layer selection  | Ground truth score (ACC) |  Ground truth ranking  | LogME score (352 samples) | LogME ranking|LogME score (1280 samples) | LogME ranking|
@@ -80,3 +82,10 @@ SpearmanrResult(correlation=-0.18021651459663265, pvalue=0.5751510589103314)
 |Layer 9           | 0.9678                   | 9                      |  863.0995    |5  |217.58671705236853|7|
 |Layer 10          | 0.9711                   | 4*                     |  867.4900    |1* |220.16220357728966|2|
 |Layer 11          | 0.9711                   | 4*                     |  864.715     |3  |220.65682721038425|1|
+
+### different upstream modesl
+|Upstream models| Ground truth score (ACC)| Ground truth ranking| LogME Score 1280 samples| LogME ranking|
+|---------------|-------------------------|---------------------|-------------------------|--------------|
+|Hubert_base    |95.94                    |1                    |218.576                  |1             |
+|Wav2vec2.0     |92.27                    |3                    |212.152                  |3             |
+|Decoar2        |92.63                    |2                    |217.289                  |2             |
