@@ -35,7 +35,7 @@ def compute_distance(feat1, feat2):
     
     n_components = 50 # number of dimensions for the reduced features
     pca = PCA(n_components=n_components)
-    tsne = TSNE(n_components=2, random_state=42, learning_rate="auto", n_iter=3000)
+    tsne = TSNE(n_components=2, random_state=42, learning_rate="auto", n_iter=5000)
 
     feat1_reduced = tsne.fit_transform(feat1)
     feat2_reduced = tsne.fit_transform(feat2)
@@ -76,9 +76,9 @@ for model in models:
     feat1 = np.asarray(pickle_feature_1)
     feat1_lst = []
     for idx,features in enumerate(feat1):
-        feat1_lst.append(np.mean(features, axis=0))
+        feat1_lst.append(np.median(features, axis=0))
     feat1 = np.matrix(feat1_lst)
-    feat2 = np.mean(np.asarray(pickle_feature_2), axis =1)
+    feat2 = np.median(np.asarray(pickle_feature_2), axis =1)
     feat1_reduced, feat2_reduced, tsne_distance = compute_distance(feat1, feat2)
     normal_reduced,_, ks_random_tsne_distance = compute_distance(random_feature,feat2)
     _,_, pr_random_tsne_distance = compute_distance(random_feature,feat1)
