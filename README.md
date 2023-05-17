@@ -4,26 +4,26 @@
 - 1/16 update
     -  KS results, 352 features. 
 todo: KS feature with more samples (1280) / PR results!!!  
-似乎是可以估計一下before/after weighted sum，以此verify the power of weighted sum in the superb model
+Can estimate before/after weighted sum to verify the power of weighted sum in the superb model
 - 1/27 update
--   PR蠻準的，framewise ctc with normalization correlation ~= 0.6-0.9
+-   PR framewise ctc with normalization correlation ~= 0.6-0.9
 
 ## Experiments todo
 Adapter with layer 1-5 feature  (7-9 features)
 (can choose a batch)
-- examinine the correlation, check if outliers should be 
+- examining the correlation, check if outliers should be 
 - https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html
 - open a github repo LogME CTC
 - per classification error
 - week 2 ctc alignment
 - week 3 posterior ( know whats estimation)
-layerwise shape difference --> may need some normalization or reshape
+layer-wise shape difference --> may need some normalization or reshape
 
 
 1. tune each transformer layer, and report the PR result
-1.1 rank the result by performance (e.g. get the ground truth rank `5, 3, 1, 2, 4`) (tune第一層結果最爛)
-2. feature hypothsis score per layer (showing the 1-12 list containing the ranking)
-3. calculate the coef score (https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html)
+1.1 rank the result by performance (e.g. get the ground truth rank `5, 3, 1, 2, 4`) (tune the first layer showed a worse result)
+2. feature hypothesis score per layer (showing the 1-12 list containing the ranking)
+3. calculate the coeff score (https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html)
 
 
 ## Results
