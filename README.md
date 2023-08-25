@@ -1,19 +1,12 @@
 #  How to Estimate Model Transferability of Pre-Trained Speech Models?
 
-## Public Hubert Related Code Release
-
-- 1/16 update
-    -  KS results, 352 features. 
-todo: KS feature with more samples (1280) / PR results!!!  
-Can estimate before/after weighted sum to verify the power of weighted sum in the superb model
-- 1/27 update
--   PR framewise ctc with normalization correlation ~= 0.6-0.9
 
 
-Noted, for conformer related implementation, please refer to `lingvo/asr` from [tensorflow](https://github.com/tensorflow/lingvo/tree/master/lingvo/tasks/asr). 
+
+- Noted, for conformer related implementation, please refer to `lingvo/asr` from [tensorflow](https://github.com/tensorflow/lingvo/tree/master/lingvo/tasks/asr). 
 
 
-## Experiments todo
+## Experiments
 Adapter with layer 1-5 feature  (7-9 features)
 (can choose a batch)
 - examining the correlation, check if outliers should be 
@@ -30,6 +23,14 @@ layer-wise shape difference --> may need some normalization or reshape
 2. feature hypothesis score per layer (showing the 1-12 list containing the ranking)
 3. calculate the coeff score (https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html)
 
+## Public Hubert Related Code Release
+
+- 1/16 update
+    -  KS results, 352 features. 
+todo: KS feature with more samples (1280) / PR results!!!  
+Can estimate before/after weighted sum to verify the power of weighted sum in the superb model
+- 1/27 update
+-   PR framewise ctc with normalization correlation ~= 0.6-0.9
 
 ## Results
 1/27 Conduct experiments on different tuned layer on PR
