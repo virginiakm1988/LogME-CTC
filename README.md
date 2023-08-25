@@ -1,6 +1,6 @@
 #  How to Estimate Model Transferability of Pre-Trained Speech Models?
 
-[Paper](https://arxiv.org/pdf/2306.01015.pdf) | [Poster]()
+[Paper](https://arxiv.org/pdf/2306.01015.pdf) | [Poster](https://github.com/virginiakm1988/LogME-CTC/blob/main/figs/IS23_transferibility_estimation_poster.pdf)
 
 - This code is used for Hubert based estimation done by Zih-Ching. 
 
