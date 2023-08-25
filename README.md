@@ -7,7 +7,7 @@
 
 [Paper](https://arxiv.org/pdf/2306.01015.pdf) | [Poster](https://github.com/virginiakm1988/LogME-CTC/blob/main/figs/IS23_transferibility_estimation_poster.pdf)
 
-- This code is used for Hubert based estimation done by Zih-Ching. 
+- This code is used for Hubert based estimation done in Pytorch by Zih-Ching at NTU. 
 
 - Noted: for conformer related implementation, please refer to `lingvo/asr` from [tensorflow](https://github.com/tensorflow/lingvo/tree/master/lingvo/tasks/asr) and Logme_CTC are done by Huck during Google. 
 
