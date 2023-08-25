@@ -30,7 +30,9 @@ layer-wise shape difference --> may need some normalization or reshape
 1/27 Conduct experiments on different tuned layer on PR
 #### Phoneme Recognition
 ###### norm
-Corr = 0.9650!!!
+
+`Corr = 0.9650`
+
 | Layer selection  | Ground truth score (PER) |  Ground truth ranking  | LogME score (15 sample average) | LogME ranking|
 | ---------------- |:-------------------------|:-----------------------|---------------------------------------|--------------|
 |Layer 0|  0.3629 | 12|171064	 |11|
@@ -47,7 +49,8 @@ Corr = 0.9650!!!
 |Layer 11 | 0.3108 | 11 |172545 |9|
 
 ###### without norm
-Corr = 0.9720!!!
+`Corr = 0.9720`
+
 | Layer selection  | Ground truth score (PER) |  Ground truth ranking  | LogME score (15 sample average) | LogME ranking|
 | ---------------- |:-------------------------|:-----------------------|---------------------------------------|--------------|
 |Layer 0|  0.3629 | 12|436972.82		 |12|
