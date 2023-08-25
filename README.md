@@ -119,6 +119,11 @@ SpearmanrResult(correlation=-0.18021651459663265, pvalue=0.5751510589103314)
 
 # References
 
+If you think this work would help your research or if got some ideas from the code, please consider referencing our paper. 
+
+Thank you!
+
+
 ```bib
 @inproceedings{chen23j_interspeech,
   author={Zih-Ching Chen and Chao-Han Huck Yang and Bo Li and Yu Zhang and Nanxin Chen and Shuo-Yiin Chang and Rohit Prabhavalkar and Hung-yi Lee and Tara Sainath},
