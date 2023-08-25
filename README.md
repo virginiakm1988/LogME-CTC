@@ -3,10 +3,10 @@
 
 <img src="https://github.com/virginiakm1988/LogME-CTC/blob/main/figs/pipeline.png" width="500">
 
-- Interspeech 2023
-
-[Paper](https://arxiv.org/pdf/2306.01015.pdf) | [Poster](https://github.com/virginiakm1988/LogME-CTC/blob/main/figs/IS23_transferibility_estimation_poster.pdf) | | 
+- Interspeech 2023 | 
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+
+[Paper](https://arxiv.org/pdf/2306.01015.pdf) | [Poster](https://github.com/virginiakm1988/LogME-CTC/blob/main/figs/IS23_transferibility_estimation_poster.pdf) 
 
 - This code is used for Hubert based estimation done in Pytorch by Zih-Ching at NTU. 
 
