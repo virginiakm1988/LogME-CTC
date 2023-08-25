@@ -115,3 +115,17 @@ SpearmanrResult(correlation=-0.18021651459663265, pvalue=0.5751510589103314)
 |Hubert_base    |95.94                    |1                    |218.576                  |1             |
 |Wav2vec2.0     |92.27                    |3                    |212.152                  |3             |
 |Decoar2        |92.63                    |2                    |217.289                  |2             |
+
+
+# References
+
+```bib
+@inproceedings{chen23j_interspeech,
+  author={Zih-Ching Chen and Chao-Han Huck Yang and Bo Li and Yu Zhang and Nanxin Chen and Shuo-Yiin Chang and Rohit Prabhavalkar and Hung-yi Lee and Tara Sainath},
+  title={{How to Estimate Model Transferability of Pre-Trained Speech Models?}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={456--460},
+  doi={10.21437/Interspeech.2023-1079}
+}
+```
