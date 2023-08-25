@@ -1,9 +1,10 @@
 #  How to Estimate Model Transferability of Pre-Trained Speech Models?
 
+[Paper](https://arxiv.org/pdf/2306.01015.pdf) | [Poster]()
 
+- This code is used for Hubert based estimation done by Zih-Ching. 
 
-
-- Noted, for conformer related implementation, please refer to `lingvo/asr` from [tensorflow](https://github.com/tensorflow/lingvo/tree/master/lingvo/tasks/asr). 
+- Noted, for conformer related implementation, please refer to `lingvo/asr` from [tensorflow](https://github.com/tensorflow/lingvo/tree/master/lingvo/tasks/asr) done by Huck during Google. 
 
 
 ## Experiments
