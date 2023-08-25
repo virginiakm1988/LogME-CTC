@@ -1,4 +1,4 @@
-#  LogME-CTC
+#  How to Estimate Model Transferability of Pre-Trained Speech Models?
 
 ## Public Hubert Related Code Release
 
