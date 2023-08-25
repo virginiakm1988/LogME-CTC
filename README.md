@@ -1,12 +1,17 @@
 #  LogME-CTC
 
-## Progress update
+## Public Hubert Related Code Release
+
 - 1/16 update
     -  KS results, 352 features. 
 todo: KS feature with more samples (1280) / PR results!!!  
 Can estimate before/after weighted sum to verify the power of weighted sum in the superb model
 - 1/27 update
 -   PR framewise ctc with normalization correlation ~= 0.6-0.9
+
+
+Noted, for conformer related implementation, please refer to `lingvo/asr` from [tensorflow](https://github.com/tensorflow/lingvo/tree/master/lingvo/tasks/asr). 
+
 
 ## Experiments todo
 Adapter with layer 1-5 feature  (7-9 features)
